@@ -11,3 +11,16 @@ folder and save formatted results in "result_%alg name%".
 6. **tool/extract_statistics.py**: Used to extract information about discovery result of a ChatGPT algorithm compared to HyFD. 
 7. **generate_stats.sh**: Run the tool/extract_statistics.py for all extracted result of ChatGPT algorithms compared with HyFD.
 8. **tool/plot.py**: Plot the required information for all ChatGPT discovery algorithms. 
+
+
+## Data Usage Agreement/ How to cite
+
+By using this study, you agree to cite the following article: 
+```
+@inproceedings{caruccio2023fdchatgpt,
+  title={Discovering Functional Dependencies: Can We Use ChatGPT to Generate Algorithms?},
+  author={Loredana Caruccio, Stefano Cirillo, Tullio Pizzuti, and Giuseppe Polese},
+  booktitle={Italian Conference on Big Data and Data Science (ITADATA)},
+  year={2023}
+}
+```
