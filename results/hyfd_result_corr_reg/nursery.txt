@@ -1,0 +1,10 @@
+Differenze result_formatter/nursery.txt - result_corr_reg/nursery.txt
+Righe result_formatter/nursery.txt: 1
+Righe result_corr_reg/nursery.txt: 0
+---------------- FDs COMUNI: 0 -------------------
+---------------- FDs RESTANTI result_formatter/nursery.txt: 1 -------------------
+1, 2, 3, 0, 4, 6, 7, 5 -> 8
+---------------- FDs RESTANTI result_corr_reg/nursery.txt: 0 -------------------
+---------------- LHS IN result_formatter/nursery.txt SOTTOINSIEME DI LHS IN result_corr_reg/nursery.txt: 0 -------------------
+---------------- LHS IN result_formatter/nursery.txt SOVRAINSIEME DI LHS IN result_corr_reg/nursery.txt: 0 -------------------
+---------------- ERRATE IN result_corr_reg/nursery.txt: 0 -------------------

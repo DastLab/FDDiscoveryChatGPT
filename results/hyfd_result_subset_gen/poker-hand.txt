@@ -1,0 +1,10 @@
+Differenze result_formatter/poker-hand.txt - result_subset_gen/poker-hand.txt
+Righe result_formatter/poker-hand.txt: 1
+Righe result_subset_gen/poker-hand.txt: 0
+---------------- FDs COMUNI: 0 -------------------
+---------------- FDs RESTANTI result_formatter/poker-hand.txt: 1 -------------------
+1, 3, 5, 7, 9, 0, 2, 4, 6, 8 -> 10
+---------------- FDs RESTANTI result_subset_gen/poker-hand.txt: 0 -------------------
+---------------- LHS IN result_formatter/poker-hand.txt SOTTOINSIEME DI LHS IN result_subset_gen/poker-hand.txt: 0 -------------------
+---------------- LHS IN result_formatter/poker-hand.txt SOVRAINSIEME DI LHS IN result_subset_gen/poker-hand.txt: 0 -------------------
+---------------- ERRATE IN result_subset_gen/poker-hand.txt: 0 -------------------

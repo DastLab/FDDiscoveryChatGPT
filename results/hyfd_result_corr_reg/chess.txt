@@ -1,0 +1,10 @@
+Differenze result_formatter/chess.txt - result_corr_reg/chess.txt
+Righe result_formatter/chess.txt: 1
+Righe result_corr_reg/chess.txt: 0
+---------------- FDs COMUNI: 0 -------------------
+---------------- FDs RESTANTI result_formatter/chess.txt: 1 -------------------
+2, 3, 4, 5, 0, 1 -> 6
+---------------- FDs RESTANTI result_corr_reg/chess.txt: 0 -------------------
+---------------- LHS IN result_formatter/chess.txt SOTTOINSIEME DI LHS IN result_corr_reg/chess.txt: 0 -------------------
+---------------- LHS IN result_formatter/chess.txt SOVRAINSIEME DI LHS IN result_corr_reg/chess.txt: 0 -------------------
+---------------- ERRATE IN result_corr_reg/chess.txt: 0 -------------------

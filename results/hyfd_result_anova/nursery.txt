@@ -1,0 +1,36 @@
+Differenze result_formatter/nursery.txt - result_anova/nursery.txt
+Righe result_formatter/nursery.txt: 1
+Righe result_anova/nursery.txt: 13
+---------------- FDs COMUNI: 0 -------------------
+---------------- FDs RESTANTI result_formatter/nursery.txt: 1 -------------------
+1, 2, 3, 0, 4, 6, 7, 5 -> 8
+---------------- FDs RESTANTI result_anova/nursery.txt: 13 -------------------
+8 -> 5
+7 -> 8
+5 -> 8
+1 -> 8
+3 -> 8
+4 -> 8
+8 -> 3
+8 -> 7
+6 -> 8
+8 -> 0
+8 -> 2
+0 -> 8
+8 -> 4
+---------------- LHS IN result_formatter/nursery.txt SOTTOINSIEME DI LHS IN result_anova/nursery.txt: 0 -------------------
+---------------- LHS IN result_formatter/nursery.txt SOVRAINSIEME DI LHS IN result_anova/nursery.txt: 7 -------------------
+1, 2, 3, 0, 4, 6, 7, 5 -> 8 | 7 -> 8
+1, 2, 3, 0, 4, 6, 7, 5 -> 8 | 5 -> 8
+1, 2, 3, 0, 4, 6, 7, 5 -> 8 | 1 -> 8
+1, 2, 3, 0, 4, 6, 7, 5 -> 8 | 3 -> 8
+1, 2, 3, 0, 4, 6, 7, 5 -> 8 | 4 -> 8
+1, 2, 3, 0, 4, 6, 7, 5 -> 8 | 6 -> 8
+1, 2, 3, 0, 4, 6, 7, 5 -> 8 | 0 -> 8
+---------------- ERRATE IN result_anova/nursery.txt: 6 -------------------
+8 -> 5
+8 -> 3
+8 -> 7
+8 -> 0
+8 -> 2
+8 -> 4

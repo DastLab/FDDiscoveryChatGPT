@@ -1,0 +1,16 @@
+Differenze result_formatter/chess.txt - result_subset_gen/chess.txt
+Righe result_formatter/chess.txt: 1
+Righe result_subset_gen/chess.txt: 3
+---------------- FDs COMUNI: 0 -------------------
+---------------- FDs RESTANTI result_formatter/chess.txt: 1 -------------------
+2, 3, 4, 5, 0, 1 -> 6
+---------------- FDs RESTANTI result_subset_gen/chess.txt: 3 -------------------
+1 -> 0
+1 -> 6
+0 -> 1
+---------------- LHS IN result_formatter/chess.txt SOTTOINSIEME DI LHS IN result_subset_gen/chess.txt: 0 -------------------
+---------------- LHS IN result_formatter/chess.txt SOVRAINSIEME DI LHS IN result_subset_gen/chess.txt: 1 -------------------
+2, 3, 4, 5, 0, 1 -> 6 | 1 -> 6
+---------------- ERRATE IN result_subset_gen/chess.txt: 2 -------------------
+1 -> 0
+0 -> 1

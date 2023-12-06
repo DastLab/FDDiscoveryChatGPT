@@ -1,0 +1,62 @@
+Differenze result_formatter/chess.txt - result_anova/chess.txt
+Righe result_formatter/chess.txt: 1
+Righe result_anova/chess.txt: 26
+---------------- FDs COMUNI: 0 -------------------
+---------------- FDs RESTANTI result_formatter/chess.txt: 1 -------------------
+2, 3, 4, 5, 0, 1 -> 6
+---------------- FDs RESTANTI result_anova/chess.txt: 26 -------------------
+6 -> 1
+1 -> 6
+2 -> 0
+6 -> 2
+4 -> 6
+0 -> 5
+4 -> 1
+0 -> 6
+6 -> 3
+5 -> 4
+0 -> 1
+6 -> 4
+1 -> 4
+5 -> 0
+2 -> 6
+3 -> 6
+6 -> 0
+1 -> 0
+3 -> 1
+0 -> 4
+4 -> 0
+6 -> 5
+5 -> 6
+1 -> 5
+5 -> 1
+4 -> 5
+---------------- LHS IN result_formatter/chess.txt SOTTOINSIEME DI LHS IN result_anova/chess.txt: 0 -------------------
+---------------- LHS IN result_formatter/chess.txt SOVRAINSIEME DI LHS IN result_anova/chess.txt: 6 -------------------
+2, 3, 4, 5, 0, 1 -> 6 | 1 -> 6
+2, 3, 4, 5, 0, 1 -> 6 | 4 -> 6
+2, 3, 4, 5, 0, 1 -> 6 | 0 -> 6
+2, 3, 4, 5, 0, 1 -> 6 | 2 -> 6
+2, 3, 4, 5, 0, 1 -> 6 | 3 -> 6
+2, 3, 4, 5, 0, 1 -> 6 | 5 -> 6
+---------------- ERRATE IN result_anova/chess.txt: 20 -------------------
+6 -> 1
+2 -> 0
+6 -> 2
+0 -> 5
+4 -> 1
+6 -> 3
+5 -> 4
+0 -> 1
+6 -> 4
+1 -> 4
+5 -> 0
+6 -> 0
+1 -> 0
+3 -> 1
+0 -> 4
+4 -> 0
+6 -> 5
+1 -> 5
+5 -> 1
+4 -> 5

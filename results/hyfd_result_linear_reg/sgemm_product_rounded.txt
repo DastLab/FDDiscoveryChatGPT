@@ -1,0 +1,21 @@
+Differenze result_formatter/sgemm_product_rounded.txt - result_linear_reg/sgemm_product_rounded.txt
+Righe result_formatter/sgemm_product_rounded.txt: 4
+Righe result_linear_reg/sgemm_product_rounded.txt: 4
+---------------- FDs COMUNI: 0 -------------------
+---------------- FDs RESTANTI result_formatter/sgemm_product_rounded.txt: 4 -------------------
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 14
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 15
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 17
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 16
+---------------- FDs RESTANTI result_linear_reg/sgemm_product_rounded.txt: 4 -------------------
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 -> 17
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17 -> 15
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17 -> 14
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17 -> 16
+---------------- LHS IN result_formatter/sgemm_product_rounded.txt SOTTOINSIEME DI LHS IN result_linear_reg/sgemm_product_rounded.txt: 4 -------------------
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 14 | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17 -> 14
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 15 | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17 -> 15
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 17 | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 -> 17
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 16 | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17 -> 16
+---------------- LHS IN result_formatter/sgemm_product_rounded.txt SOVRAINSIEME DI LHS IN result_linear_reg/sgemm_product_rounded.txt: 0 -------------------
+---------------- ERRATE IN result_linear_reg/sgemm_product_rounded.txt: 0 -------------------

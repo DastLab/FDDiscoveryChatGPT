@@ -1,0 +1,194 @@
+result_formatter/abalone.txt	137
+result_tane/abalone.txt	9 - (Unique: 9)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	137
+Specializzazioni (unique)	9
+Errate (no gen/spec/comuni)	0
+Errate(no spec/comuni)	0
+
+TP: 0
+FP: 9
+FN: 137
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/adult.txt	78
+result_tane/adult.txt	15 - (Unique: 15)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	78
+Specializzazioni (unique)	6
+Errate (no gen/spec/comuni)	9
+Errate(no spec/comuni)	9
+
+TP: 0
+FP: 15
+FN: 78
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/chess.txt	1
+result_tane/chess.txt	7 - (Unique: 7)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	6
+Errate(no spec/comuni)	6
+
+TP: 1
+FP: 6
+FN: 0
+Accuracy: 0.14285714285714285
+Precision: 0.14285714285714285
+Recall: 1.0
+F1 SCORE: 0.25
+----------------------------------------------------------
+result_formatter/customer_shopping_data.txt	21
+result_tane/customer_shopping_data.txt	10 - (Unique: 10)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	21
+Specializzazioni (unique)	10
+Errate (no gen/spec/comuni)	0
+Errate(no spec/comuni)	0
+
+TP: 0
+FP: 10
+FN: 21
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/electricity-normalized.txt	61
+result_tane/electricity-normalized.txt	9 - (Unique: 9)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	61
+Specializzazioni (unique)	7
+Errate (no gen/spec/comuni)	2
+Errate(no spec/comuni)	2
+
+TP: 0
+FP: 9
+FN: 61
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/firewall.txt	88
+result_tane/firewall.txt	12 - (Unique: 12)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	88
+Specializzazioni (unique)	7
+Errate (no gen/spec/comuni)	5
+Errate(no spec/comuni)	5
+
+TP: 0
+FP: 12
+FN: 88
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/fraudfull.txt	38
+result_tane/fraudfull.txt	11 - (Unique: 11)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	38
+Specializzazioni (unique)	10
+Errate (no gen/spec/comuni)	1
+Errate(no spec/comuni)	1
+
+TP: 0
+FP: 11
+FN: 38
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/letter.txt	61
+result_tane/letter.txt	17 - (Unique: 17)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	61
+Specializzazioni (unique)	1
+Errate (no gen/spec/comuni)	16
+Errate(no spec/comuni)	16
+
+TP: 0
+FP: 17
+FN: 61
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/nursery.txt	1
+result_tane/nursery.txt	9 - (Unique: 9)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	8
+Errate(no spec/comuni)	8
+
+TP: 1
+FP: 8
+FN: 0
+Accuracy: 0.1111111111111111
+Precision: 0.1111111111111111
+Recall: 1.0
+F1 SCORE: 0.19999999999999998
+----------------------------------------------------------
+result_formatter/poker-hand.txt	1
+result_tane/poker-hand.txt	11 - (Unique: 11)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	10
+Errate(no spec/comuni)	10
+
+TP: 1
+FP: 10
+FN: 0
+Accuracy: 0.09090909090909091
+Precision: 0.09090909090909091
+Recall: 1.0
+F1 SCORE: 0.16666666666666669
+----------------------------------------------------------
+result_formatter/sgemm_product_rounded.txt	4
+result_tane/sgemm_product_rounded.txt	18 - (Unique: 18)
+Generalizzazioni	0
+Generalizzazioni (unique)	0
+Specializzazioni	4
+Specializzazioni (unique)	4
+Errate (no gen/spec/comuni)	14
+Errate(no spec/comuni)	14
+
+TP: 0
+FP: 18
+FN: 4
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+File vuoti: 0
+File con dipendenze: 11
+File totali: 11
+Avg accuracy: 0.031352485897940444
+Avg precision: 0.031352485897940444
+Avg recall: 0.2727272727272727
+Avg F1 score: 0.05606060606060606

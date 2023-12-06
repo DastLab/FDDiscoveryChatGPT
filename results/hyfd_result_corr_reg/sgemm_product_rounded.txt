@@ -1,0 +1,37 @@
+Differenze result_formatter/sgemm_product_rounded.txt - result_corr_reg/sgemm_product_rounded.txt
+Righe result_formatter/sgemm_product_rounded.txt: 4
+Righe result_corr_reg/sgemm_product_rounded.txt: 12
+---------------- FDs COMUNI: 0 -------------------
+---------------- FDs RESTANTI result_formatter/sgemm_product_rounded.txt: 4 -------------------
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 14
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 15
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 17
+0, 1, 8, 9, 3, 4, 5, 6, 2, 7, 10, 11, 12, 13 -> 16
+---------------- FDs RESTANTI result_corr_reg/sgemm_product_rounded.txt: 12 -------------------
+14 -> 15
+14 -> 16
+14 -> 17
+15 -> 14
+15 -> 16
+15 -> 17
+16 -> 14
+16 -> 15
+16 -> 17
+17 -> 14
+17 -> 15
+17 -> 16
+---------------- LHS IN result_formatter/sgemm_product_rounded.txt SOTTOINSIEME DI LHS IN result_corr_reg/sgemm_product_rounded.txt: 0 -------------------
+---------------- LHS IN result_formatter/sgemm_product_rounded.txt SOVRAINSIEME DI LHS IN result_corr_reg/sgemm_product_rounded.txt: 0 -------------------
+---------------- ERRATE IN result_corr_reg/sgemm_product_rounded.txt: 12 -------------------
+14 -> 15
+14 -> 16
+14 -> 17
+15 -> 14
+15 -> 16
+15 -> 17
+16 -> 14
+16 -> 15
+16 -> 17
+17 -> 14
+17 -> 15
+17 -> 16

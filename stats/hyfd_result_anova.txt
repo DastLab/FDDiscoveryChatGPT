@@ -1,0 +1,194 @@
+result_formatter/abalone.txt	137
+result_anova/abalone.txt	65 - (Unique: 65)
+Generalizzazioni	490
+Generalizzazioni (unique)	65
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	0
+Errate(no spec/comuni)	65
+
+TP: 0
+FP: 65
+FN: 137
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/adult.txt	78
+result_anova/adult.txt	194 - (Unique: 194)
+Generalizzazioni	407
+Generalizzazioni (unique)	41
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	151
+Errate(no spec/comuni)	192
+
+TP: 2
+FP: 192
+FN: 76
+Accuracy: 0.007407407407407408
+Precision: 0.010309278350515464
+Recall: 0.02564102564102564
+F1 SCORE: 0.014705882352941176
+----------------------------------------------------------
+result_formatter/chess.txt	1
+result_anova/chess.txt	26 - (Unique: 26)
+Generalizzazioni	6
+Generalizzazioni (unique)	6
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	20
+Errate(no spec/comuni)	26
+
+TP: 0
+FP: 26
+FN: 1
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/customer_shopping_data.txt	21
+result_anova/customer_shopping_data.txt	6 - (Unique: 6)
+Generalizzazioni	2
+Generalizzazioni (unique)	2
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	2
+Errate(no spec/comuni)	4
+
+TP: 2
+FP: 4
+FN: 19
+Accuracy: 0.08
+Precision: 0.3333333333333333
+Recall: 0.09523809523809523
+F1 SCORE: 0.14814814814814814
+----------------------------------------------------------
+result_formatter/electricity-normalized.txt	61
+result_anova/electricity-normalized.txt	66 - (Unique: 66)
+Generalizzazioni	220
+Generalizzazioni (unique)	50
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	16
+Errate(no spec/comuni)	66
+
+TP: 0
+FP: 66
+FN: 61
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/firewall.txt	88
+result_anova/firewall.txt	124 - (Unique: 124)
+Generalizzazioni	305
+Generalizzazioni (unique)	57
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	67
+Errate(no spec/comuni)	124
+
+TP: 0
+FP: 124
+FN: 88
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/fraudfull.txt	38
+result_anova/fraudfull.txt	60 - (Unique: 60)
+Generalizzazioni	68
+Generalizzazioni (unique)	30
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	30
+Errate(no spec/comuni)	60
+
+TP: 0
+FP: 60
+FN: 38
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/letter.txt	61
+result_anova/letter.txt	271 - (Unique: 271)
+Generalizzazioni	681
+Generalizzazioni (unique)	15
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	256
+Errate(no spec/comuni)	271
+
+TP: 0
+FP: 271
+FN: 61
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/nursery.txt	1
+result_anova/nursery.txt	13 - (Unique: 13)
+Generalizzazioni	7
+Generalizzazioni (unique)	7
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	6
+Errate(no spec/comuni)	13
+
+TP: 0
+FP: 13
+FN: 1
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/poker-hand.txt	1
+result_anova/poker-hand.txt	52 - (Unique: 52)
+Generalizzazioni	5
+Generalizzazioni (unique)	5
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	47
+Errate(no spec/comuni)	52
+
+TP: 0
+FP: 52
+FN: 1
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+result_formatter/sgemm_product_rounded.txt	4
+result_anova/sgemm_product_rounded.txt	184 - (Unique: 184)
+Generalizzazioni	52
+Generalizzazioni (unique)	52
+Specializzazioni	0
+Specializzazioni (unique)	0
+Errate (no gen/spec/comuni)	132
+Errate(no spec/comuni)	184
+
+TP: 0
+FP: 184
+FN: 4
+Accuracy: 0
+Precision: 0
+Recall: 0
+F1 SCORE: 0
+----------------------------------------------------------
+File vuoti: 0
+File con dipendenze: 11
+File totali: 11
+Avg accuracy: 0.007946127946127946
+Avg precision: 0.031240237425804437
+Avg recall: 0.010989010989010988
+Avg F1 score: 0.014804911863735393
